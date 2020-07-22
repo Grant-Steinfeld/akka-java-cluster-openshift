@@ -15,7 +15,7 @@
         <akka.http.version>10.1.8</akka.http.version>
         <akka.cluster.bootstrap.version>1.0.0</akka.cluster.bootstrap.version>
         <docker.image.version>1.0.2</docker.image.version>
-        <jackson.version>2.9.8</jackson.version>
+        <jackson.version>2.11.0</jackson.version>
         <junit.version>4.12</junit.version>
         <junit.jupiter.version>5.0.2</junit.jupiter.version>
         <junit.vintage.version>${junit.version}.0</junit.vintage.version>
@@ -211,7 +211,7 @@
                                     <exec>
                                         <args>/bin/sh</args>
                                         <args>-c</args>
-                                        <args>java -jar /maven/akka-cluster-openshift.jar</args>
+                                        <args>java -jar /maven/cluster-sharding-openshift.jar</args>
                                     </exec>
                                 </entryPoint>
                                 <assembly>
